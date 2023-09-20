@@ -1,0 +1,118 @@
+/* propiedades generales */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+/* variables */
+
+:root {
+  --bg: #333;
+  --bd: #ffc0cb;
+  --bgFont: #fff;
+  --bs: #000;
+  --bgRight: #88888880;
+  --bgTransparent: #77777750;
+}
+
+/* propidades de cuerpo */
+body {
+  background: var(--bg);
+  color: var(--bgFont);
+  display: flex;
+  height: 100vh;
+}
+
+/* propiedades de menu de navegacion */
+.menu {
+  border-right: solid 1px var(--bgRight);
+}
+
+.menu nav {
+  padding: 20px 50px;
+}
+
+.menu ul {
+  display: inline-block;
+}
+
+.menu li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 12px;
+  margin: 15px;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+.menu svg {
+  fill: var(--bgFont);
+  width: 25px;
+}
+
+.menu img {
+  width: 35px;
+  border-radius: 50px;
+}
+
+.menu li:hover {
+  background: var(--bgTransparent);
+}
+
+.menu a {
+  text-decoration: none;
+  color: var(--bgFont);
+}
+
+
+/*contenedor de publicaciones*/
+
+.content-publication {
+  display: block;
+  margin: 50px;
+}
+
+/* propiedades de publicaciones */
+
+.publication {
+  display: inline-block;
+  padding: 0 0 100px 0;
+}
+
+.publication nav {
+ padding: 5px;
+}
+
+.publication ul {
+  display: flex;
+  gap: 30px;
+}
+
+.publication li {
+  list-style: none;
+}
+
+.publication img {
+  width: 50px;
+  border-radius: 50%;
+  border: 2px solid red;
+}
+
+/*propiedades de publicaciones2*/
+.publication2 {
+  background: red;
+  margin: 10px;
+}
+
+.publication2 nav {
+  padding: 5px;
+}
+
+.publication2 li {
+  list-style: none;
+}
